@@ -10,12 +10,11 @@ In your pom.xml, add the following repository:
 
 ```xml
 <repository>
-  <id>my-ideas.mvn.repo</id>
-	<url>https://github.com/totomz/mvn-repo</url>
-	<!-- use snapshot version -->
+	<id>my-ideas.mvn.repo</id>
+	<url>https://raw.github.com/totomz/mvn-repo/master</url>
 	<snapshots>
-	  <enabled>true</enabled>
+		<enabled>true</enabled>
 		<updatePolicy>always</updatePolicy>
-  </snapshots>
-</repository>` 
+	</snapshots>
+</repository>
 ```
