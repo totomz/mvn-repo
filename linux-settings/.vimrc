@@ -27,4 +27,4 @@ set incsearch
 set hlsearch
 
 " Line numbers
-set numbers
+set number

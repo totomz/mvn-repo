@@ -85,7 +85,6 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -ahl --color=auto'
 #alias la='ls -A'
 #alias l='ls -CF'
 
@@ -108,6 +107,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+###########
+# TOMMASO #
+###########
+
+alias ls='ls -ahl --color=auto'
 
 # kill jboss
 alias killjb="sudo kill -9  $(ps -ef | grep jboss | grep -v grep | grep -v /bin/sh | awk '{print $2}' )"
