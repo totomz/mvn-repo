@@ -4,7 +4,7 @@ set nocompatible
 filetype on
 filetype plugin on
 syntax enable
-hi Comment ctermfg=LightBlue guifg=LightBlue
+hi Comment ctermfg=Yellow guifg=LightBlue
 
 " Who doesn't like autoindent?
 set autoindent
