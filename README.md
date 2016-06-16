@@ -1,20 +1,27 @@
-mvn-repo
-========
 
-A "maven" repository for compiled versions of my libraries
+A "maven" repository for compiled versions of my libraries. Artifacts are published in the branch `gh-pages`!
 
-Hot to use it
---------
-
-In your pom.xml, add the following repository:
-
+# Usage
+Simply add this repo to your 
 ```xml
-<repository>
-	<id>my-ideas.mvn.repo</id>
-	<url>https://raw.github.com/totomz/mvn-repo/master</url>
-	<snapshots>
-		<enabled>true</enabled>
-		<updatePolicy>always</updatePolicy>
-	</snapshots>
-</repository>
+<repositories>
+  <repository>
+    <id>totomz-github</id>
+    <name>Totomz  maven repo</name>
+    <url>http://totomz.github.com/mvn-repo/repository/</url>
+  </repository>
+</repositories>
+```
+
+# Deploy artifacts
+
+1. clone this repo and `git fetch && git checkout gh-repo`
+2. Set the distribution management in the pom
+```xml
+<distributionManagement>
+  <repository>
+    <id>gh-pages</id>
+    <url>file:///${mvn-repo-dir}/repository/</url>
+  </repository>
+</distributionManagement>
 ```
