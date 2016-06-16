@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.bananarama</groupId>
+  <artifactId>bananarama</artifactId>
+  <version>0.9.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20160616.072131</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20160616072131</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.9.0-20160616.072131-1</value>
+        <updated>20160616072131</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.9.0-20160616.072131-1</value>
+        <updated>20160616072131</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
