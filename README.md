@@ -15,7 +15,7 @@ Simply add this repo to your
 
 # Deploy artifacts
 
-1. clone this repo and `git fetch && git checkout gh-repo`
+1. clone this repo and `git fetch && git checkout -b gh-pages origin/gh-pages`
 2. Set the distribution management in the pom
 ```xml
 <distributionManagement>
@@ -25,3 +25,5 @@ Simply add this repo to your
   </repository>
 </distributionManagement>
 ```
+3. deploy the artifact using `mvn deploy`
+4. `git commit -a -m "" && git push`
